@@ -1,0 +1,5 @@
+Laranja: #cc6411
+Azul mais escuro: #00377e
+Azul do meio: #0a579f
+Azul mais claro: #5f9e97
+Verde: #77ac5b

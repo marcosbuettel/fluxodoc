@@ -1,0 +1,135 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Lato', sans-serif;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #F4F4F4;
+}
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+    background: #F4F4F4;
+}
+::-webkit-scrollbar-thumb {
+    background: #2D323E;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+li{
+  	list-style-type: none;
+}
+
+.container{
+	max-width: 1280px;
+	margin:0 auto;
+}
+
+
+/********************************************************************
+						INICIO LOGIN
+********************************************************************/
+.login-sistema{
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	color: white;
+	text-align: center;
+}
+
+.login-sistema img{
+	width: 200px;
+}
+
+.login-sistema-box{	
+	color: #085AC3;
+	display: flex;
+	flex-direction: column;
+	align-items: center; 
+	width: 400px;	
+}
+
+input{
+	width: 100%;
+	border: none;
+}
+
+input:focus{
+	box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+.input{
+	background-color: white;
+	padding: 10px 20px;
+	display: flex;
+	margin: 20px auto;
+	width: 300px;
+	border: #085AC3 1px solid;
+	border-radius: 20px;
+}
+
+.login-sistema-box button{
+	cursor: pointer;
+	font-weight: bold;
+	color: white;
+	height: 40px;
+	border: none;
+	border-radius: 20px;
+	width: 100%;
+	background-color: #085AC3;
+}
+
+.login-sistema-box button:hover{
+	background-color: #77B3FF;
+	transition: 0.5s;
+}
+
+.botao-login{
+	display: flex;
+	align-items: center;
+}
+
+.botao-login button{
+	margin: 0 auto;
+}
+
+
+.dados-incorretos{
+	text-align: center; 
+}
+
+/********************************************************************
+						INICIO PÁGINA CALENDARIO
+********************************************************************/
+
+
+
+/********************************************************************
+						MEDIA QUERIES
+********************************************************************/
+
+@media screen and (max-width: 1100px){
+	.imagem-aumentada{
+		max-width: 90%;
+		left: auto;
+	}
+}
+
+@media screen and (max-width: 900px){
+
+	
+}
+
+@media screen and (max-width: 450px){
+
+}
