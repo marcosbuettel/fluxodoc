@@ -8,8 +8,8 @@
 	use Aws\S3\Exception\S3Exception;	
 
 	$bucketName = 'deploy-arpoador';
-	$IAM_KEY = 'AKIAREY7JX52VPRLVVWT';
-	$IAM_SECRET = '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';
+	$IAM_KEY = '****';
+	$IAM_SECRET = '****';
 
 	// Connect to AWS
 	try {
